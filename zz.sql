@@ -14,12 +14,12 @@
 -- 2. Retrieve
 -- SELECT * FROM students;
 -- SELECT name, age FROM students;
--- -- SELECT * FROM students WHERE age > 18;
-
+-- SELECT id, name FROM students;
+-- SELECT DISTINCT name FROM  students;
+-- SELECT * FROM students WHERE age > 18;
 -- 3. Update
 -- UPDATE students SET name = "Linda" WHERE name = "Fortune";
-
 -- 4. Delete
--- DELETE FROM students WHERE name = "John";
+-- DELETE FROM students WHERE id =3;
 -- DROP TABLE students
 
